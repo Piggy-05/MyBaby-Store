@@ -149,7 +149,7 @@ public class InventoryManager {
             }
             System.out.println("Data Saved Successfully");
         }catch(IOException e){
-            System.err.println("读取文件失败：" + e.getMessage());
+            System.err.println("File error：" + e.getMessage());
         }
     }
 
